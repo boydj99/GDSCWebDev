@@ -45,7 +45,14 @@ p{
 }
 
 .container {
-    /*Step 12: Style .container class */
+    background-color: whitesmoke;
+    padding: 5rem;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0px 0px 0px 10px 0px rgba(0,0,0,0.2);
+}       
+
+button {
     background-color: rgba(66, 133, 244, 255);
     color: #fff;
     padding: 15px 25px 15px 25px;
@@ -53,9 +60,5 @@ p{
     cursor: pointer;
     font-size: 24px;
     border-radius: 10px;
-}       
-
-button {
-    /*Step 14: Style button class */
 }
 
